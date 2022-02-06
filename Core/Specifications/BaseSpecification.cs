@@ -8,9 +8,9 @@ namespace Core.Specifications
         {
             
         }
-        public BaseSpecification(Expression<Func<T, bool>> Criteria)
+        public BaseSpecification(Expression<Func<T, bool>> criteria)
         {
-            Criteria = Criteria;
+            Criteria = criteria;
         }
         public Expression<Func<T, bool>> Criteria {get ;}
 
